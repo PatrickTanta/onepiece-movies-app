@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const moviesApi = axios.create({
-    baseURL: 'https://api.jikan.moe/v4'
+    baseURL: `${import.meta.env.VITE_BASE_URL}`
 })
